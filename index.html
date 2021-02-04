@@ -7,9 +7,28 @@
     <title>website</title>
 </head>
 
+
+<!--    make this a header instead of a div
+
+make a footer element instead of footer div
+
+content class make that a main element
+
+benefits part should be a section or an aside
+
+add alt elements after images
+
+header is split with a span - clean seo class around the title of my website
+
+headings in sequential order:  
+
+-->
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+
+       <!-- refactored by using "header" element instead of DIV to show more definitively this is the top of the website, also consolidated this section in CSS--> 
+       
+    <header class="header">
+        <h1>Horiseon</h1>
         <div>
             <ul>
                 <li>
@@ -23,24 +42,25 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </header>
     <div class="hero"></div>
     <div class="content">
-        <div class="search-engine-optimization">
+        <!-- refactored by using the DRY principle, also consolidated this section in CSS-->
+        <div id="search-engine-optimization" class="content-item">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        <div id="online-reputation-management" class="content-item">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        <div id="social-media-marketing" class="content-item">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>

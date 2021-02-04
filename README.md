@@ -1,1 +1,3 @@
-# homework-refactor
+# Horiseon Website - Code Refactor Project
+
+---
